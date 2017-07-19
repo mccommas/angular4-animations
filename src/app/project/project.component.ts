@@ -27,9 +27,10 @@ export class ProjectComponent implements OnInit {
 
   getPrjStatusClass() {
     return {
-      'label-success': this.project.status === 'active',
-      'label-default': this.project.status === 'inactive',
-      'label-danger': this.project.status === 'critical'
+      'badge badge-success': this.project.status === 'active',
+      'badge badge-default': this.project.status === 'inactive',
+      'badge badge-danger': this.project.status === 'critical'
     };
   }
 }
+

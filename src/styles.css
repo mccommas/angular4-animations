@@ -2,3 +2,22 @@
 .btn-primary {
   color: #fff;
 }
+
+.badge-success {
+  background-color: #5cb85c;
+  border-radius: 3px;
+  padding: 2px;
+}
+.badge-danger {
+  background-color: #d9534f;
+  border-radius: 3px;
+  padding: 2px;
+}
+.badge-default {
+  background-color: #636c72;
+  border-radius: 3px;
+  padding: 2px;
+}
+.h3, h3 {
+  font-size: 1.2rem !important;
+}
